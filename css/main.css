@@ -1,0 +1,124 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+body {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Lato', sans-serif;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto; }
+  body::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.container {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .container:last-child {
+    margin-right: 0; }
+  .container .words {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    position: relative;
+    background: #3F96C7;
+    border: 4px solid #c2e1f5;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    padding: 15px; }
+    .container .words:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 500px) {
+      .container .words {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 73.14426%; }
+        .container .words:last-child {
+          margin-right: 0; } }
+    .container .words h1 {
+      color: #FFFFFF;
+      border-bottom: 1px solid #FFFFFF;
+      font-size: 24px; }
+    .container .words p {
+      color: #FFFFFF;
+      font-size: 14px; }
+  .container i {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 6.17215%;
+    padding: 6px;
+    border: 5px solid red;
+    border-radius: 50%;
+    text-align: center;
+    width: 2.5em;
+    margin-top: 12px;
+    margin-left: -8.5em; }
+    .container i:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 500px) {
+      .container i {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 19.43277%; }
+        .container i:last-child {
+          margin-right: 0; } }
+  .container .timeDay {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .container .timeDay:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 500px) {
+      .container .timeDay {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 73.14426%; }
+        .container .timeDay:last-child {
+          margin-right: 0; } }
+    .container .timeDay .date {
+      color: #B5C9D5;
+      font-size: 13px;
+      margin-left: 30px; }
+    .container .timeDay .time {
+      color: #3F96C7;
+      font-size: 2.5em;
+      margin: -15px; }
+
+.words:after,
+.words:before {
+  right: 100%;
+  top: 15%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none; }
+
+.words:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-right-color: #3F96C7;
+  border-width: 10px;
+  margin-top: -10px; }
+
+.words:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-right-color: #c2e1f5;
+  border-width: 15px;
+  margin-top: -15px; }
